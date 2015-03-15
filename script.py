@@ -1,5 +1,11 @@
 import requests
 from lxml import html
+import os
+
+try:
+	os.mkdir("Images")
+except:
+	pass
 
 #Change the proxy address here...
 proxies ={
